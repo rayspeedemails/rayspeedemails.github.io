@@ -7,129 +7,145 @@
     <link rel="stylesheet" href="my-Portfolio-Styles.css">
     <title>MY PORTFOLIO WEBSITE</title>
 </head>
-<body id="about">
+<body id="home">
 <!--Index-Webpage Begins-->
 <div>
 
-<!--Row1 MENU Begins-->
-<div>
-    <header>
-            <nav>
-                <div class="brand"><a href="#" >Rayspeedemails</a></div> 
-                    <div class="links">
-                            <a data.active="home" href="index.html">Home</a>
-        
-                            <a data.active="about" href="about.html">About Me</a>
-                        
-                            <a data.active="portfolio" href="portfolio.html">My Portfolio</a>
-                        
-                            <a data.active="contact" href="contact.html">Contact</a>
-                    </div>
+<!--Row1 MENU/NAVIGATION Begins-->
+<div class="transparent-bg">
+    <header class="primary-header flex">
+
+            <nav  id = "navig" class="primary-header flex">
+                <div style="margin-right: 10px;">
+                    <p><a id ="brand" href="index.html">Rayspeedemails</a></p>
+                </div>
+
+                <div style="margin-left: 50px;">
+                    <button  class="mobile-nav-toggle" style="float:left; font-size: 12px;"  aria-controls="primary-navigation" aria-expanded="false">
+                        <span class="sr-only">  Menu </span>
+                    </button>
+
+                    <ul id = "primary-navigation" data-visible = "false" class="primary-navigation flex">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+
+                        <li>
+                            <a  href="about.html">About Me</a>
+                        </li>
+
+                        <li>
+                            <a  href="portfolio.html">My Portfolio</a>
+                        </li>
+
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </nav>
     </header>
 </div>
-
-
-
+<!--Row1 MENU/NAVIGATION ENDS-->
 
 <!--Row2 Begins-->
-<div style="padding-bottom: 50px;">
-<table width="100%">
-<tr>
-<td width="50%">
-    <p style="padding-left: 50px; padding-top:100px;">
-        Hi, am Email Developer </br> 
-        <span style="font-size:26px;line-height:32px;font-weight:bold;"> COMFORT CHIDI </span> </br> </br> 
-        I’m passionate about email development and marketing </br> 
-    </p>
-    <p style="padding-left: 50px; padding-top: 30px;">
-        Let's get in touch at <a href="google.com" style="text-decoration:none; color:#0fb3d8;">rayspeedemails@gmail.com </a> 
-    </p>
-</td>
-
-<td align="right" width="50%">
-    <p>
-        <img src="facebook-social.jpg"  alt="" style=" height:auto;" />
-    </p> 
-
-    <p>
-        <img src="pinterest-social.jpg"  alt="" style=" height:auto;" />
-    </p>
-</td>
-</tr>
-</table>
-<!--Row1 ends-->
-</div>
-
-<!--Row2 Begins-->
-<div>
-<table width="100%">
-    <tr>
-        <td  width="50%">
-            <div style="background-color: #e4f0e6;">
-            <img src="Comfort1.png" alt="Comfort-Email-Developer" style="width:400px; max-width:100%; height:auto; padding-left:50px; padding-left:50px; padding-top:50px;" >
+<div style="background-color: #cad7d2;">
+    <table width="100%" class="flex-container">
+        <tr>
+        <div>
+            <div>
+            <td  align="center" class="td-1column-resize-tablet" width="45%">  
+                <img src="comfort-chidi-photo1.png"  alt="Comfort-Email-Developer" style="width:100%; max-width:100%; height:auto; padding-left:50px; padding-right:0px; padding-top:50px; padding-bottom:0px;" >
+            </td>
             </div>
-        </td>
-        
 
-        <td  width="50%">
-            <p style="padding-left:50px; margin-top:-200px; font-weight: bold;">
-                About Me
-            </p>
-        </td>
-    </tr>
-</table>
+            <div >
+            <td  class="td-1column-resize-tablet" width="45%">
+                <p  class ="font-hero-resize-tablet" style="text-align:left; padding-left:50px; margin-top:0px; font-weight:normal; font-size:18px; color: #0e1313; line-height: 30px;">
+                    Hi, am Comfort Chidi, <br> an email development specialist </br> 
+                   <!---- <span style="font-size:30px;line-height:32px;font-weight:bold;"> COMFORT CHIDI </span> </br> </br> -->
+                    passionate about coding responsive email templates for online marketing </br> 
+                </p>
+                <p style="text-align:left; padding-left:50px; padding-top: 30px; font-size:18px; color: #000000c8;">
+                    Contact me today at <a href="google.com" style="text-decoration:none; color:#0a5d77; font-weight:bold;">rayspeedemails@gmail.com </a> 
+                </p>
+
+                <p style ="padding-left:50px;  padding-top: 30px;">
+                    <button class="button-hero"><a href=""> Hire Me </a></button>
+                </p>
+            </td>  
+            </div>
+            
+            <div>
+            <td class="td-1column-resize-tablet" align="right" width="10%">
+                <p align="center" style="padding-bottom: 20px;">
+                   <a href=""> 
+                    <img src="facebook-social.png"  alt="" style="width:20px; height:auto;" />
+                   </a>
+                </p> 
+                
+                <p align="center">
+                    <a href=""> 
+                    <img src="linkedin-social.png"  alt="" style="width:20px; height:auto;" />
+                    </a>
+                </p>
+            </td>         
+            </div>
+        </div>
+        </tr>
+    </table>
 </div>
-<!--Row2 ends-->
+    <!--Row2 ends-->
+
 
 <!--Row3 Begins-->
-<div>
+<div style="padding-bottom: 50px;">
     <table width="100%">
         <tr>
-            <td  width="20%">
-                <p style="padding-left:50px; padding-top:50px; font-weight: bold; font-size:25px;">
+            <td class="td-1column-resize-tablet" width="20%">
+                <p style=" text-align: center; padding-left:0px; padding-top:50px; font-weight: bold; font-size:25px;">
                     Skills
                 </p>
             </td>
     
-            <td  width="20%">
-                <p style="padding-left:0px; font-weight:bold; padding-top:200px;">
+            <td class="td-1column-resize-tablet" width="20%">
+                <p style="padding-left:0px; padding-top:50px;font-weight:bold; ">
                     Languages
                 </p>
 
-                <p style="padding-left:0px; font-weight:normal; padding-top:10px;">
+                <p style="padding-left:0px; font-weight:normal; ">
                     Html <br>
                     css
                 </p>
             </td>
 
-            <td  width="20%">
-                <p style="padding-left:0px; font-weight:bold; padding-top:180px;">
+            <td class="td-1column-resize-tablet" width="20%">
+                <p style="padding-left:0px;padding-top:50px; font-weight:bold; padding-top:0px;">
                     Frameworks
                 </p>
 
-                <p style="padding-left:0px; font-weight:normal; padding-top:10px;">
+                <p style="padding-left:0px; font-weight:normal; ">
                     Bootstrap 
                 </p>
             </td>
 
-            <td  width="20%">
-                <p style="padding-left:0px; font-weight: bold; padding-top:200px;">
+            <td class="td-1column-resize-tablet" width="20%">
+                <p style="padding-left:0px; padding-top:50px; font-weight: bold; ">
                     Tools
                 </p>
 
-                <p style="padding-left:0px; font-weight:normal; padding-top:10px;">
+                <p style="padding-left:0px; font-weight:normal;">
                     Mailchimp <br>
                     Litmus
                 </p>
             </td>
 
-            <td  width="20%">
-                <p style="padding-left:0px; font-weight: bold; padding-top:215px;">
+            <td  class="td-1column-resize-tablet" width="20%">
+                <p style="padding-left:0px; padding-top:50px; font-weight: bold; ">
                     Design
                 </p>
 
-                <p style="padding-left:0px; font-weight:normal; padding-top:10px;">
+                <p style="padding-left:0px; font-weight:normal; ">
                     Photoshop <br>
                     Canva <br>
                     Inscape
@@ -140,74 +156,21 @@
 </div>
 <!--Row3 ends-->
 
-<!--Row4 Begins-->
-<div style="background-color: #e5f0f1;">
-    <div>
-        <p align="center" style="padding-left:0px; padding-top:100px; padding-bottom:50px; font-weight: bold; font-size: 25px;">
-           My Recent Projects
+<!--Row4-Footer Starts-->
+ <div>
+    <div style="background-color:#0e0b0b; padding-top: 50px; padding-bottom: 50px;">
+        <p align="center">
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+        </p>
+
+        <p align="center" style="color:#ffffff;">
+            ©Copyright 2023 </br> </br>  Designed by Rayspeedemails
         </p>
     </div>
-    <div>
-    <table width="100%" style="padding-bottom:200px;">
-        <tr>
-            <td  width="30%">
-                <img src="athletaBanner.gif" alt="Comfort-Email-Developer" style="width:100%; max-width:100%; height:auto;" >
-
-                <p style="padding-left:0px; padding-top:20px; margin-top:0px; font-weight: bold; text-align: center;">
-                    Promo Email
-                </p>
-
-                <p style="padding:10px; font-weight:normal;">
-                   This is a promotional email template for a fashion business. <br>
-                   Contact us today to help you code your professional promo emails.
-                </p>
-
-                <p style="padding-left:10px; padding-top:0px; font-weight: bold; color: #0fb3d8;">
-                    <span style="border-right:2px solid #0fb3d8 !important; padding-right:2px;"> <a href="#" style="color: #0fb3d8;"> Html </a></span>
-                    <span style="border-right:0px solid #0fb3d8 !important; padding-left:3px;"> <a href="#" style="color: #0fb3d8;"> CSS </a></span>
-                </p>
-            </td>
-
-            <td  width="30%">
-                <img src="Beddings.jpg" alt="Comfort-Email-Developer" style="width:100%; max-width:100%; height:auto; margin-bottom:50px; margin-top:30px; " >
-
-                <p style="padding-left:0px; padding-top:0px; margin-top:0px; font-weight: bold; text-align: center;">
-                    Transactional Email Template
-                </p>
-
-                <p style="padding:10px; font-weight:normal;">
-                   This is a transactional email template for a hotel and shortlet apartment service business. <br>
-                   Contact us today to help you code your professional promo emails.
-                </p>
-
-                <p style="padding-left:10px; padding-top:0px; font-weight: bold; color: #0fb3d8;">
-                    <span style="border-right:2px solid #0fb3d8 !important; padding-right:2px;"> <a href="#" style="color: #0fb3d8;"> Html </a></span>
-                    <span style="border-right:0px solid #0fb3d8 !important; padding-left:3px;"> <a href="#" style="color: #0fb3d8;"> CSS </a></span>
-                </p>
-            </td>
-
-            <td  width="30%">
-                <img src="food.png" alt="Comfort-Email-Developer" style="width:100%; max-width:100%; height:auto;" >
-
-                <p style="padding-left:0px; padding-top:50px; margin-top:0px; font-weight:bold; text-align: center;">
-                    Newsletter Email Template
-                </p>
-
-                <p style="padding:10px; font-weight:normal;">
-                   This is a Newsletter email template for a business. <br>
-                   Contact us today to help you code your professional promo emails.
-                </p>
-
-                <p style="padding-left:10px; padding-top:20px; font-weight: bold; color: #0fb3d8;">
-                    <span style="border-right:2px solid #0fb3d8 !important; padding-right:2px;"> <a href="#" style="color: #0fb3d8;"> Html </a></span>
-                    <span style="border-right:0px solid #0fb3d8 !important; padding-left:3px;"> <a href="#" style="color: #0fb3d8;"> CSS </a></span>
-                </p>
-            </td>
-        </tr>
-    </table> 
-    </div>    
-    <!--Row4 ends-->
-</div>
+ </div>
+<!--Row4 ends-->
     
 
 <!--Index-Webpage ends-->

@@ -11,63 +11,84 @@
 <!--Index-Webpage Begins-->
 <div>
 
-<!--Row1 MENU Begins-->
-<div>
-    <header>
-            <nav>
-                <div class="brand"><a href="#" >Rayspeedemails</a></div> 
-                    <div>
+<!--Row1 MENU/NAVIGATION Begins-->
+<div class="transparent-bg">
+    <header class="primary-header flex">
+
+            <nav  id = "navig" class="primary-header flex">
+                <div style="margin-right: 10px;">
+                    <p  ><a id ="brand" href="index.html">Rayspeedemails</a></p>
+                </div>
+
+                <div style="margin-left: 50px;">
+                    <button  class="mobile-nav-toggle" style="float:left; font-size: 12px;"  aria-controls="primary-navigation" aria-expanded="false">
+                     <!--   <span class="sr-only">  Menu </span>  -->
+                    </button>
+
+                    <ul id = "primary-navigation" data-visible = "false" class="primary-navigation flex">
+                        <li>
                             <a href="index.html">Home</a>
-        
+                        </li>
+
+                        <li>
                             <a  href="about.html">About Me</a>
-                        
+                        </li>
+
+                        <li>
                             <a  href="portfolio.html">My Portfolio</a>
-                        
+                        </li>
+
+                        <li>
                             <a href="contact.html">Contact</a>
-                    </div>
+                        </li>
+                    </ul>
+                </div>
             </nav>
     </header>
 </div>
-
+<!--Row1 MENU/NAVIGATION ENDS-->
 
 <!--Row2 Begins-->
-<div style="background-color: #419a76;">
-    <table width="100%">
+<div style="background-color: #719f8c;">
+    <table width="100%" class="flex-container">
         <tr>
-            <td align="right" width="10%">
-                <p>
-                    <img src="facebook-social.jpg"  alt="" style=" height:auto;" />
-                </p> 
-            
-                <p>
-                    <img src="pinterest-social.jpg"  alt="" style=" height:auto;" />
-                </p>
+            <td  class="td-1column-resize-tablet" width="45%">  
+                <img src="comfortchidi-gravatar.png" alt="Comfort-Email-Developer" style="width:100%; max-width:100%; height:auto; padding-left:0px; padding-right:0px; padding-top:50px; padding-bottom:0px;" >
             </td>
 
-            <td  width="45%">
-                <p style="padding-left:50px; margin-top:-200px; font-weight: bold;">
-                    Hi, am Email Developer </br> 
-                    <span style="font-size:26px;line-height:32px;font-weight:bold;"> COMFORT CHIDI </span> </br> </br> 
-                    I’m passionate about email development and online marketing </br> 
+            <td  class="td-1column-resize-tablet" width="45%">
+                <p  class ="font-hero-resize-tablet" style="text-align: left; padding-left:25px;  padding-right:25px;  margin-top:0px; font-weight:normal; font-size:18px; color: #e5f0f1; line-height: 30px;">
+                    Hi, am Comfort Chidi, <br> an email development specialist </br> 
+                   <!---- <span style="font-size:30px;line-height:32px;font-weight:bold;"> COMFORT CHIDI </span> </br> </br> -->
+                    passionate about coding responsive email templates for online marketing </br> 
                 </p>
-                <p style="padding-left: 50px; padding-top: 30px;">
-                    Let's get in touch at <a href="google.com" style="text-decoration:none; color:#0fb3d8;">rayspeedemails@gmail.com </a> 
+                <p style="text-align: left; padding-left:25px;  padding-right:25px; padding-top: 30px; font-size:18px; color: #000000c8;">
+                    Contact me today at <a href="google.com" style="text-decoration:none; color:#0a5d77; font-weight:bold;">rayspeedemails@gmail.com </a> 
                 </p>
 
-                <p style="padding-left: 50px; padding-top: 30px;">
-                    <button><a href=""> Hire Me </a></button>
+                <p  style = "padding-left:20px;  padding-top: 30px;">
+                    <button class="button-hero"><a href=""> Hire Me </a></button>
                 </p>
-            </td>
-            
-    
-            <td  width="45%">
-                <div>
-                    <img src="comfortchidi-gravatar.png" alt="Comfort-Email-Developer" style="width:100%; max-width:100%; height:auto; padding-left:0px; padding-right:0px; padding-top:50px; padding-bottom:0px;" >
-                </div>
-            </td>
+            </td>  
+
+
+            <td  class="td-1column-resize-tablet" align="right" width="10%">
+                <p align="center" style="padding-bottom: 20px;">
+                    <a href=""> 
+                     <img src="facebook-social.png"  alt="" style="width:20px; height:auto;" />
+                    </a>
+                 </p> 
+                 
+                 <p align="center">
+                     <a href=""> 
+                     <img src="linkedin-social.png"  alt="" style="width:20px; height:auto;" />
+                     </a>
+                 </p>
+            </td>         
+
         </tr>
     </table>
-    </div>
+</div>
     <!--Row2 ends-->
 
 
@@ -75,13 +96,13 @@
 <div>
     <table width="100%">
         <tr>
-            <td  width="20%">
+            <td class="td-1column-resize-tablet" width="20%">
                 <p style="padding-left:50px; padding-top:50px; font-weight: bold; font-size:25px;">
                     Skills
                 </p>
             </td>
     
-            <td  width="20%">
+            <td class="td-1column-resize-tablet" width="20%">
                 <p style="padding-left:0px; padding-top:50px;font-weight:bold; ">
                     Languages
                 </p>
@@ -92,7 +113,7 @@
                 </p>
             </td>
 
-            <td  width="20%">
+            <td class="td-1column-resize-tablet" width="20%">
                 <p style="padding-left:0px;padding-top:50px; font-weight:bold; padding-top:0px;">
                     Frameworks
                 </p>
@@ -102,7 +123,7 @@
                 </p>
             </td>
 
-            <td  width="20%">
+            <td class="td-1column-resize-tablet" width="20%">
                 <p style="padding-left:0px; padding-top:50px; font-weight: bold; ">
                     Tools
                 </p>
@@ -113,7 +134,7 @@
                 </p>
             </td>
 
-            <td  width="20%">
+            <td class="td-1column-resize-tablet" width="20%">
                 <p style="padding-left:0px; padding-top:50px; font-weight: bold; ">
                     Design
                 </p>
@@ -139,7 +160,7 @@
     <div>
     <table width="100%" style="padding-bottom:200px;">
         <tr>
-            <td  width="30%">
+            <td class="td-1column-resize-tablet" width="30%">
                 <img src="athletaBanner.gif" alt="Comfort-Email-Developer" style="width:100%; max-width:100%; height:auto;" >
 
                 <p style="padding-left:0px; padding-top:20px; margin-top:0px; font-weight: bold; text-align: center;">
@@ -157,8 +178,8 @@
                 </p>
             </td>
 
-            <td  width="30%">
-               <a href = "thank-you-email-template-for-exoticplaces365.html"> <img src="Beddings.jpg" alt="Comfort-Email-Developer" style="width:100%; max-width:100%; height:auto; margin-bottom:50px; margin-top:30px;"></a>
+            <td class="td-1column-resize-tablet" width="30%">
+                <img src="Beddings.jpg" alt="Comfort-Email-Developer" style="width:100%; max-width:100%; height:auto; margin-bottom:50px; margin-top:30px; " >
 
                 <p style="padding-left:0px; padding-top:0px; margin-top:0px; font-weight: bold; text-align: center;">
                     Transactional Email Template
@@ -175,7 +196,7 @@
                 </p>
             </td>
 
-            <td  width="30%">
+            <td class="td-1column-resize-tablet" width="30%">
                 <img src="food.png" alt="Comfort-Email-Developer" style="width:100%; max-width:100%; height:auto;" >
 
                 <p style="padding-left:0px; padding-top:50px; margin-top:0px; font-weight:bold; text-align: center;">
